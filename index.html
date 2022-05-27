@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="to test bootstrap properties">
+    <meta name="og:description" content="to test bootstrap properties">
+    <meta property="og:title" content="Test Bootstrap">
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Gym</title>
+</head>
+<body>
+    <!-- ******************************* -->
+    <nav class="navbar navbar-expand-lg p-0" id="home">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="bars" class="fa-solid fa-bars text-light fs-2"></div>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light me-lg-4" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#trainers">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#package">Package</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-lg-4" href="#contact">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <!-- ******************************* -->
+      <div id="carouselExampleIndicators" class="carousel slide mb-lg-5" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/fitnes1.jpg" class="d-block w-100" alt="slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide2.png" class="d-block w-100" alt="slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide3.png" class="d-block w-100" alt="slide 3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide4.png" class="d-block w-100" alt="slide 4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- ******************************* -->
+      <div class="exercise py-5">
+          <div class="container">
+              <div class="row text-center">
+
+            <div class="col-lg-4 col-md-12 col-sm-12 p-2 ex position-relative mb-sm-2">
+                <div class="image"><img class="img-fluid" src="images/yogga.jpg" alt="yoga"></div>
+                <div class="text pt-4">
+                    <h2 class="h2 fs-4 mb-3 fw-bold">Yoga</h2>
+                    <p class="text-5 text-white-50">Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, veli</p>
+                    <span class="time d-block mb-3">Mon to Fri: 7am to 6pm</span>
+                    <span class="price text-light d-block mb-2">$90.00/mo</span>
+                </div>
+            </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 p-2 ex position-relative mb-sm-2">
+                <div class="image"><img class="img-fluid" src="images/work.jpg" alt="workout" ></div>
+                <div class="text pt-4">
+                    <h2 class="h2 fs-4 mb-3 fw-bold">Workout</h2>
+                    <p class="text-5 text-white-50">Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, veli</p>
+                    <span class="time d-block mb-3">Mon to Fri: 7am to 6pm</span>
+                    <span class="price text-light d-block mb-2">$90.00/mo</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12  p-2 ex position-relative mb-sm-2">
+                <div class="image"><img class="img-fluid" src="images/aerobic.jpg"alt="aerobic"></div>
+                <div class="text pt-4">
+                    <h2 class="h2 fs-4 mb-3 fw-bold">Aerobic</h2>
+                    <p class="text-5 text-white-50">Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, veli</p>
+                    <span class="time d-block mb-3">Mon to Fri: 7am to 6pm</span>
+                    <span class="price text-light d-block mb-2">$90.00/mo</span>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <hr style="border:2px solid red;height: 2px;">
+<!-- ******************************* -->
+<div class="services py-lg-5" id="services">
+    <div class="container">
+        <div class="head">
+            <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Our Services</h2>
+            <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/weight-scale.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Weight Loss</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/aerobic.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Aerobic</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/exercise.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Exercises</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/healthcare.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Health Care</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/training.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Training</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 py-4 px-3 mb-3 serv">
+                <div class="row align-items-center text-md-center text-sm-center">
+                    <div class="col-lg-3"><div class="icon mb-md-4 mb-sm-3 "><img src="images/services icons/advice.png" alt=""></div></div>
+                    <div class="col-lg-9">
+                        <div class="text">
+                            <h3 class="fs-5 text-light mb-md-3 mb-sm-2">Smart Advice</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam? Culpa officiis asperiores quas, odio</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ******************************* -->
+<div class="about py-lg-5" id="about">
+    <div class="container">
+        <div class="head">
+            <h2 class="text-light my-4 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">About Us</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-4"><img class="img-fluid rounded" src="images/Working-Out-With-Chalk.jpg" alt=""></div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h2 class="h2 text-light mb-3">Our Fitness Center</h2>
+                <p class="mb-3 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                <p class="mb-3 text-white-50">Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at. Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum.</p>
+                <p class="mb-3 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massasemper aliquam quis mattis quam.</p>
+                <p class="mb-3 text-white-50">Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ******************************* -->
+    <div class="trainers py-lg-5" id="trainers">
+        <div class="container">
+
+
+            <div class="head">
+                <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Trained Team</h2>
+                <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+            </div>
+
+            <div class="row text-center">
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 ex position-relative mb-sm-2">
+                    <div class="image"><img class="img-fluid" src="images/trainers/coach1.jpg" alt="coach"></div>
+                    <div class="text pt-4">
+                        <a class="text-decoration-none fs-4 mb-3 d-block" href="####">John Doe</a>
+                        <h3 class="h3 text-light fs-5 mb-3">Founder</h3>
+                        <p class="text-white-50">Pellentesque elementum dapibus convallis. Vivamus eget finibus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 ex position-relative mb-sm-2">
+                    <div class="image"><img class="img-fluid" src="images/trainers/coach2.jpg" alt="coach"></div>
+                    <div class="text pt-4">
+                        <a class="text-decoration-none fs-4 mb-3 d-block" href="####">Armani Krist</a>
+                        <h3 class="h3 text-light fs-5 mb-3">Trainer</h3>
+                        <p class="text-white-50">Pellentesque elementum dapibus convallis. Vivamus eget finibus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 ex position-relative mb-sm-2">
+                    <div class="image"><img class="img-fluid" src="images/trainers/coach3.jpg" alt="coach"></div>
+                    <div class="text pt-4">
+                        <a class="text-decoration-none fs-4 mb-3 d-block" href="####">Micellir Faeny</a>
+                        <h3 class="h3 text-light fs-5 mb-3">Trainer</h3>
+                        <p class="text-white-50">Pellentesque elementum dapibus convallis. Vivamus eget finibus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 ex position-relative mb-sm-2">
+                    <div class="image"><img class="img-fluid" src="images/trainers/coach4.jpg" alt="coach"></div>
+                    <div class="text pt-4">
+                        <a class="text-decoration-none fs-4 mb-3 d-block" href="###">Kimten Lendy</a>
+                        <h3 class="h3 text-light fs-5 mb-3">Trainer</h3>
+                        <p class="text-white-50">Pellentesque elementum dapibus convallis. Vivamus eget finibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ******************************* -->
+    <div class="gallery py-5" id="gallery">
+        <div class="container">
+            <div class="head">
+                <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Gallery</h2>
+                <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery1.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery2.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery3.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery4.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery5.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img  class="img-fluid"src="images/gallery/gallery6.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery7.jpg" alt="photo for gym"></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                  <a href="####"><img class="img-fluid" src="images/gallery/gallery2.jpg" alt="photo for gym"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ************************************************** -->
+        <div class="stats py-5">
+            <div class="container">
+                <div class="head">
+                    <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Our Stats</h2>
+                    <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+                </div>
+                <div class="row align-items-md-center justify-content-md-center align-items-sm-center justify-content-sm-center">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-4 border border-5 border-white rounded-circle d-flex flex-column justify-content-center align-items-center ms-lg-4 mb-md-3 mb-sm-3 " style="width: 300px;height:300px;">
+                        <p class="text-light fs-1">6850</p>
+                        <span class="text-white-50 fw-light fs-5">Clients</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-4 border border-5 border-white rounded-circle d-flex flex-column justify-content-center align-items-center ms-lg-4 ms-md-5 mb-md-3 mb-sm-3 " style="width: 300px;height:300px;">
+                        <p class="text-light fs-1">2345</p>
+                        <span class="text-white-50 fw-light fs-5">Completed</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-4 border border-5 border-white rounded-circle d-flex flex-column justify-content-center align-items-center ms-lg-4 mb-md-3 mb-sm-3 " style="width: 300px;height:300px;">
+                        <p class="text-light fs-1">4352</p>
+                        <span class="text-white-50 fw-light fs-5">Progress</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-4 border border-5 border-white rounded-circle d-flex flex-column justify-content-center align-items-center ms-lg-4 ms-md-5 mb-md-3 mb-sm-3 " style="width: 300px;height:300px;">
+                        <p class="text-light fs-1">2740</p>
+                        <span class="text-white-50 fw-light fs-5">Revenue</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- ******************************************************* -->
+<div class="package py-5" id="package">
+    <div class="container">
+        <div class="head">
+            <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Package</h2>
+            <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center border p-0 mb-sm-2">
+                <div class="above p-3 mb-3">
+                <span class="d-block text-light fs-1 mb-4">$45</span>
+                    <p class="text-light fs-4 ">Basic</p>
+                </div>
+                <ul class="list-unstyled text-white-50 p-3">
+                    <li class="mb-4">Change oil</li>
+                    <li class="mb-4">Change oil filter</li>
+                    <li class="mb-4">tyre pressures</li>
+                    <li class="mb-4">Test brake</li>
+                    <li class="mb-4">suspension</li>
+                    <li class="mb-4">cooling system</li>
+                    <li class="mb-5">Road test</li>
+                    <li class="mb-4 "><button class="px-4 py-3 text-light">Get It Now !</button></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center border p-0 mb-sm-2">
+                <div class="above p-3 mb-3">
+                <span class="d-block text-light fs-1 mb-4">$85</span>
+                    <p class="text-light fs-4 ">Advanced</p>
+                </div>
+                <ul class="list-unstyled text-white-50 p-3">
+                    <li class="mb-4">Change oil</li>
+                    <li class="mb-4">Change oil filter</li>
+                    <li class="mb-4">tyre pressures</li>
+                    <li class="mb-4">Test brake</li>
+                    <li class="mb-4">suspension</li>
+                    <li class="mb-4">cooling system</li>
+                    <li class="mb-5">Road test</li>
+                    <li class="mb-4 "><button class="px-4 py-3 text-light">Get It Now !</button></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center border p-0 mb-sm-2">
+                <div class="above p-3 mb-3">
+                <span class="d-block text-light fs-1 mb-4">$125</span>
+                    <p class="text-light fs-4 ">Professional</p>
+                </div>
+                <ul class="list-unstyled text-white-50 p-3">
+                    <li class="mb-4">Change oil</li>
+                    <li class="mb-4">Change oil filter</li>
+                    <li class="mb-4">tyre pressures</li>
+                    <li class="mb-4">Test brake</li>
+                    <li class="mb-4">suspension</li>
+                    <li class="mb-4">cooling system</li>
+                    <li class="mb-5">Road test</li>
+                    <li class="mb-4 "><button class="px-4 py-3 text-light">Get It Now !</button></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center border p-0 mb-sm-2">
+                <div class="above p-3 mb-3">
+                <span class="d-block text-light fs-1 mb-4">$185</span>
+                    <p class="text-light fs-4 ">Extended</p>
+                </div>
+                <ul class="list-unstyled text-white-50 p-3">
+                    <li class="mb-4">Change oil</li>
+                    <li class="mb-4">Change oil filter</li>
+                    <li class="mb-4">tyre pressures</li>
+                    <li class="mb-4">Test brake</li>
+                    <li class="mb-4">suspension</li>
+                    <li class="mb-4">cooling system</li>
+                    <li class="mb-5">Road test</li>
+                    <li class="mb-4 "><button class="px-4 py-3 text-light">Get It Now !</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- *********************************************************************** -->
+    <div class="contact py-5" id="contact">
+        <div class="container">
+            <div class="head">
+                <h2 class="text-light my-3 pb-3 fs-1 text-lg-start text-md-center text-sm-center" id="heading">Contact Us</h2>
+                <p class="mb-5 text-lg-start text-md-center text-sm-center" id="prag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <ul class="list-unstyled">
+                        <li class="text-light mb-2">Champ Fitness, Inc.</li>
+                        <li class="text-white-50 mb-2">12345 NewYork, Street 125</li>
+                        <li class="text-white-50 mb-2">United States 94107</li>
+                        <li class="text-white-50 mb-2">P: (123) 456-7890</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <input class="w-100 bg-transparent p-2 mb-2" name="full name" type="text" placeholder="Full Name" required>
+                    <input class="w-100 bg-transparent p-2 mb-2" name="email" type="email" placeholder="E-mail" required autocomplete="off">
+                    <textarea class="w-100 bg-transparent p-2 mb-2" name="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    <button class="py-2 px-3 text-white">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ***************************************************************** -->
+    <footer class="py-2">
+        <div class="container"><p class="text-white fs-5">All Rights Reserved To <span class="text-danger fw-bold">3abdola</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="asset/js/all.min.js"></script>
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
